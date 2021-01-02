@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2021-01-02T16:32:47.977Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="faGpTOdoluoXGKzr2Qoz" version="14.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-02T16:41:16.543Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="ANhFC-v1kE0neAJZu94d" version="14.1.7" type="github">
   <diagram id="s8hAlmWzMJa5WdFKXrLp" name="第 1 页">
     <mxGraphModel dx="1183" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="52WlonN3I5VmtxTaXr-P-61" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="790" width="480" height="210" as="geometry" />
+        </mxCell>
         <mxCell id="52WlonN3I5VmtxTaXr-P-22" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="160" width="680" height="230" as="geometry" />
         </mxCell>
@@ -80,7 +83,7 @@
           <mxGeometry x="50" y="180" width="150" height="20" as="geometry" />
         </mxCell>
         <mxCell id="52WlonN3I5VmtxTaXr-P-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="40" y="430" width="700" height="320" as="geometry" />
+          <mxGeometry x="30" y="440" width="700" height="320" as="geometry" />
         </mxCell>
         <mxCell id="52WlonN3I5VmtxTaXr-P-25" value="锁的等待唤醒（线程的通讯）基本流程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="440" width="240" height="20" as="geometry" />
@@ -175,6 +178,43 @@
         </mxCell>
         <mxCell id="52WlonN3I5VmtxTaXr-P-48" value="wait状态下的队列" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="207.5" y="710" width="122.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="52WlonN3I5VmtxTaXr-P-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="52WlonN3I5VmtxTaXr-P-51" target="52WlonN3I5VmtxTaXr-P-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="52WlonN3I5VmtxTaXr-P-51" value="线程A" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="860" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="52WlonN3I5VmtxTaXr-P-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="52WlonN3I5VmtxTaXr-P-52" target="52WlonN3I5VmtxTaXr-P-55">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="52WlonN3I5VmtxTaXr-P-52" value="线程B" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="935" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="52WlonN3I5VmtxTaXr-P-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="52WlonN3I5VmtxTaXr-P-53">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52WlonN3I5VmtxTaXr-P-59" value="notify唤醒" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="52WlonN3I5VmtxTaXr-P-58">
+          <mxGeometry x="-0.0621" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="52WlonN3I5VmtxTaXr-P-53" value="持有锁" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="865" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="52WlonN3I5VmtxTaXr-P-60" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;" edge="1" parent="1" source="52WlonN3I5VmtxTaXr-P-55" target="52WlonN3I5VmtxTaXr-P-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="52WlonN3I5VmtxTaXr-P-55" value="抢占锁" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="185" y="935" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="52WlonN3I5VmtxTaXr-P-56" value="wait等待" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="930" width="70" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="52WlonN3I5VmtxTaXr-P-62" value="简单的线程通讯图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="810" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
