@@ -1,1 +1,112 @@
-<mxfile host="app.diagrams.net" modified="2021-01-02T07:13:33.126Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" version="14.1.6" etag="KbN2AXoCuZpXjMJppqAO" type="github"><diagram id="f56VBVb2m2WH-U12SFpD">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-01-02T07:38:03.235Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Safari/605.1.15" etag="LiMOmrz8GYwYVAc8G__v" version="14.1.6" type="github">
+  <diagram id="f56VBVb2m2WH-U12SFpD" name="第 1 页">
+    <mxGraphModel dx="1183" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xMjdWaStf560W7G12weN-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xMjdWaStf560W7G12weN-2" target="xMjdWaStf560W7G12weN-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-3" value="thread.start()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xMjdWaStf560W7G12weN-1" target="xMjdWaStf560W7G12weN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-1" value="new &amp;nbsp; Thread()" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="70" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xMjdWaStf560W7G12weN-2" target="xMjdWaStf560W7G12weN-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="xMjdWaStf560W7G12weN-2" target="xMjdWaStf560W7G12weN-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-27" value="线程运行结束" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xMjdWaStf560W7G12weN-26">
+          <mxGeometry x="0.0449" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.433;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="xMjdWaStf560W7G12weN-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="512" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-31" value="所阻塞的情况&lt;br&gt;Synchronized" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xMjdWaStf560W7G12weN-30">
+          <mxGeometry x="0.2068" y="1" relative="1" as="geometry">
+            <mxPoint x="-3" y="-34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-2" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="242.5" y="160" width="315" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-4" value="运行状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="xMjdWaStf560W7G12weN-5" target="xMjdWaStf560W7G12weN-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-14" value="OS调度（&lt;br&gt;系统cpu分配时间片&lt;br&gt;）" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xMjdWaStf560W7G12weN-11">
+          <mxGeometry x="-0.0923" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-5" value="就绪" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="180" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="xMjdWaStf560W7G12weN-6" target="xMjdWaStf560W7G12weN-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="285" />
+              <mxPoint x="310" y="195" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-17" value="系统调度 yield" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xMjdWaStf560W7G12weN-13">
+          <mxGeometry x="0.0933" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-6" value="运行" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="270" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.151;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="xMjdWaStf560W7G12weN-18" target="xMjdWaStf560W7G12weN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-35" value="唤醒线程&lt;br&gt;notify&lt;br&gt;notif All&lt;br&gt;Locksupport.unpark" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xMjdWaStf560W7G12weN-34">
+          <mxGeometry x="0.1903" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-18" value="WAITING" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="410" width="182.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-21" value="&lt;h1&gt;&lt;span style=&quot;background-color: rgb(204 , 204 , 0)&quot;&gt;WAITING状态：&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204 , 204 , 0)&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;1.sleep()&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;2.wait()&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;3.join()&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;4.LockSupport.park&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="270" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="xMjdWaStf560W7G12weN-22" target="xMjdWaStf560W7G12weN-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-33" value="唤醒线程&lt;br&gt;notify&lt;br&gt;notify All&lt;br&gt;LockSupport.unpark" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="xMjdWaStf560W7G12weN-32">
+          <mxGeometry x="-0.1985" y="2" relative="1" as="geometry">
+            <mxPoint y="10.8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-22" value="TIME_WAITING" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="410" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-24" value="&lt;h1&gt;&lt;span style=&quot;background-color: rgb(204 , 204 , 0)&quot;&gt;TIME_WAITING状态：&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(204 , 204 , 0)&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;1.sleep(long)&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;2.wait(long)&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;3.join(long)&lt;/span&gt;&lt;br style=&quot;text-align: center&quot;&gt;&lt;span style=&quot;text-align: center&quot;&gt;4.LockSupport.parkUntil(XX)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#000000;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="240" width="260" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-25" value="终止" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-28" value="BLOCKED" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="460" y="440" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="xMjdWaStf560W7G12weN-36" value="&lt;h1&gt;&lt;span style=&quot;background-color: rgb(128 , 255 , 0)&quot;&gt;系统中的线程状态5种：&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(128 , 255 , 0)&quot;&gt;1.新建线程&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(128 , 255 , 0)&quot;&gt;2..ready：表示现场已被创建，正在等待系统调度分配cpu使用权&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(128 , 255 , 0)&quot;&gt;3..running：表示获得了cpu使用权，正在进行执行运算&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(128 , 255 , 0)&quot;&gt;4.waiting：表示线程等待（挂起），让出cpu的资源，让其他线程去使用&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: rgb(128 , 255 , 0)&quot;&gt;5.线程使用结束，死亡&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=#FF0000;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="525" width="530" height="135" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
